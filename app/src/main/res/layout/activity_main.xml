@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawie.myview.MainActivity">
+
+    <com.bawie.myview.myview1.MyView
+        android:visibility="gone"
+        android:background="@color/violet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.bawie.myview.myview2.LoginView
+        android:visibility="gone"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.bawie.myview.myview3.LogicView
+        android:visibility="gone"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.bawie.myview.myview4.MyText
+        android:visibility="gone"
+        android:background="@color/sandybrown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.bawie.myview.myview5.NumText
+        android:background="@color/capture_text_cover_bg"
+        app:lineNum="5"
+        app:xScroll = "true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
